@@ -27,12 +27,13 @@ iframe {
     border: 3px solid black;
 }
 
-#foto {
+.foto {
     display: block;
     width: 50vw;
     height: 150px;
     background-size: cover;
     border: none;
+    margin: 0 auto;
 }
 
 .link-page {
@@ -48,7 +49,6 @@ iframe {
     background-color: rgb(225, 228, 46);
     color: #1c1c1c;
     font-weight: bold;
-
 }
 
 @media screen and (min-width: 769px) {
@@ -74,7 +74,7 @@ iframe {
         padding: 0 3em;
     }
 
-    #foto {
+    .foto {
         display: none;
     }
 }
