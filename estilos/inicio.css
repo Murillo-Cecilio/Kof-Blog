@@ -1,0 +1,23 @@
+html {
+    width: 100vw;
+    min-height: 100vh;
+}
+
+body {
+    background-image: url("../img/kofe.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.container-text{
+    position: relative;
+    align-items: center;
+    margin-top: 40vh;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 33px;
+    font-weight: bold;
+    color: rgb(240, 226, 33);
+    background-color: rgb(43, 187, 206);
+    padding: 9px;
+}

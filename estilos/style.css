@@ -1,0 +1,80 @@
+:root {
+    --color-branco: #FFF;
+    --color-dark: #272727;
+    --color-dark2: #2d2d2d;
+    --color-dark3: #414141;
+    --color-dark4: #1c1c1c;
+    --color-dark5: #343434;
+    --color-roxo: #b040ff;
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--color-dark);
+    color: var(--color-branco);
+}
+
+iframe {
+    display: block;
+    margin: auto;
+    width: 95vw;
+    height: 400px;
+    border: 3px solid black;
+}
+
+#foto {
+    display: block;
+    width: 50vw;
+    height: 150px;
+    background-size: cover;
+    border: none;
+}
+
+.link-page {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em 0;
+}
+
+.links {
+    border: 1px solid white;
+    padding: 2px;
+    border-radius: 25px;
+    background-color: rgb(225, 228, 46);
+    color: #1c1c1c;
+    font-weight: bold;
+
+}
+
+@media screen and (min-width: 769px) {
+    p, h2 {
+        margin: 1em 2em;
+        background-color: var(--color-dark);
+        font-size: 18px;
+        padding: 0.5em;
+    }
+
+    .link-page {
+        margin: 3em 2em;
+    }
+
+    body {
+        background-image: url('../img/KOF-2002-UM.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 90;
+    }
+
+    .links {
+        padding: 0 3em;
+    }
+
+    #foto {
+        display: none;
+    }
+}
